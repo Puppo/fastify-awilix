@@ -37,7 +37,7 @@
     "lint:fix": "eslint --fix",
     "test": "npm run test:unit && npm run test:typescript",
     "test:typescript": "tstyche",
-    "test:unit": "c8 --100 node --test"
+    "test:unit": "c8 --100 node --test --test-skip-pattern '(\\.tst\\.ts)$' test/*.test.js"
   },
   "dependencies": {
     "awilix-manager": "^6.2.1",

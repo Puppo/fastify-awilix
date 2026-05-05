@@ -7,7 +7,6 @@ import { expect } from 'tstyche'
 expect<{}>().type.toBeAssignableTo<FastifyAwilixOptions>()
 expect<{ disposeOnClose: false }>().type.toBeAssignableTo<FastifyAwilixOptions>()
 expect<{ container: AwilixContainer<Cradle> }>().type.toBeAssignableTo<FastifyAwilixOptions>()
-expect<{ container: AwilixContainer<Cradle> }>().type.toBeAssignableTo<FastifyAwilixOptions>()
 expect<{ injectionMode: 'CLASSIC' }>().type.toBeAssignableTo<FastifyAwilixOptions>()
 expect<{ injectionMode: 'PROXY' }>().type.toBeAssignableTo<FastifyAwilixOptions>()
 
