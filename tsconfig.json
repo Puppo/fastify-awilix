@@ -9,8 +9,8 @@
     "types": ["node"],
     "strict": true,
     "moduleResolution": "node",
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
@@ -20,7 +20,10 @@
     "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true,
+    "exactOptionalPropertyTypes": true
   },
   "exclude": [
     "node_modules",
